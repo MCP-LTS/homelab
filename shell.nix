@@ -11,7 +11,11 @@ let
   ]);
 in
 pkgs.mkShell {
+  LOCALE_ARCHIVE_2_27 = "${pkgs.glibcLocales}/lib/locale/locale-archive";
   buildInputs = with pkgs; [
+    openssh_gssapi
+    xorriso
+    vim
     ansible
     ansible-lint
     bmake

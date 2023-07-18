@@ -1,5 +1,5 @@
 data "cloudflare_zone" "zone" {
-  name = "khuedoan.com"
+  name = "mcp.cool"
 }
 
 data "cloudflare_api_token_permission_groups" "all" {}
@@ -14,8 +14,8 @@ data "http" "public_ipv4" {
 
 locals {
   public_ips = [
-    "${chomp(data.http.public_ipv4.body)}/32",
-    # "${chomp(data.http.public_ipv6.body)}/128"
+    "${chomp(data.http.public_ipv4.response_body)}/32",
+    # "${chomp(data.http.public_ipv6.response_body)}/128"
   ]
 }
 
