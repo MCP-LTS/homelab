@@ -3,5 +3,5 @@ name: vaultwarden
 version: 0.0.0
 dependencies:
 - name: vaultwarden
-  version: 2.8.0
+  version: 0.1.5
   repository: https://cdwv.github.io/bitwarden-k8s/
