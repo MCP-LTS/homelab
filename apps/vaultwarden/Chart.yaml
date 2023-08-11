@@ -2,7 +2,7 @@ apiVersion: v2
 name: vaultwarden
 version: 0.0.0
 dependencies:
-- name: vaultwarden
-  version: 0.1.5
-  repository: https://cdwv.github.io/bitwarden-k8s/
-  chart: bitwarden-k8s
+  - name: vaultwarden
+    version: 0.1.5
+    repository: https://cdwv.github.io/bitwarden-k8s/
+    chart: bitwarden-k8s
