@@ -1,5 +1,5 @@
 apiVersion: v2
-name: vaultwarden
+name: bitwarden-k8s
 version: 0.0.0
 dependencies:
   - name: bitwarden-k8s
