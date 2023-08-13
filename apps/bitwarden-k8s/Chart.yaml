@@ -6,3 +6,4 @@ dependencies:
     version: 0.1.6
     repoURL: 'https://cdwv.github.io/bitwarden-k8s/'
     path: chart/bitwarden-k8s
+    chart: chart/bitwarden-k8s
