@@ -5,4 +5,4 @@ dependencies:
   - name: bitwarden-k8s
     version: 0.1.6
     repoURL: https://git.mcp.cool/ops/bitwarden-k8s
-    path: chart/bitwarden-k8s
+
