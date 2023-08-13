@@ -3,5 +3,6 @@ name: bitwarden-k8s
 version: 0.0.0
 dependencies:
   - name: bitwarden-k8s
-    version: 0.1.6
-    repoURL: 'https://cdwv.github.io/bitwarden-k8s/'
+    version: HEAD
+    repoURL: 'https://github.com/cdwv/bitwarden-k8s'
+    path: chart/bitwarden-k8s
