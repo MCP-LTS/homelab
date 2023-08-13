@@ -1,11 +1,11 @@
-vaultwarden:
+bitwarden-k8s:
   ingress:
     main:
       enabled: true
       ingressClassName: nginx
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
-        hajimari.io/appName: vaultwarden
+        hajimari.io/appName: bitwarden-k8s
         hajimari.io/icon: google-drive
       hosts:
         - host: &host vaultwarden.mcp.cool
