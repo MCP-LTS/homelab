@@ -5,4 +5,4 @@ dependencies:
   - name: bitwarden
     version: HEAD
     repository: https://github.com/Skeen/helm-bitwarden_rs/
-    path: charts/bitwarden
+    chart: charts/bitwarden
