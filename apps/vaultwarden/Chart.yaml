@@ -1,0 +1,9 @@
+apiVersion: v2
+name: vaultwarden
+version: 0.0.0
+dependencies:
+  - name: vaultwarden
+    version: HEAD
+    repository: 'https://git.mcp.cool/ops/v'
+
+
