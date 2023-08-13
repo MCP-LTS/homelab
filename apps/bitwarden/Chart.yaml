@@ -1,7 +1,8 @@
 apiVersion: v2
-name: bitwarden
+name: bitwarden-k8s
 version: 0.0.0
 dependencies:
-  - name: bitwarden
+  - name: bitwarden-k8s
     version: HEAD
-    repository: https://github.com/Skeen/helm-bitwarden_rs
+    repository: https://github.com/cdwv/bitwarden-k8s
+    path: chart/bitwarden-k8s
