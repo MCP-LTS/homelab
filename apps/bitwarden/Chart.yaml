@@ -1,0 +1,8 @@
+apiVersion: v2
+name: bitwarden
+version: 0.0.0
+dependencies:
+  - name: bitwarden
+    version: HEAD
+    repository: https://github.com/Skeen/helm-bitwarden_rs/
+    path: charts/bitwarden
