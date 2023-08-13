@@ -4,6 +4,5 @@ version: 0.0.0
 dependencies:
   - name: bitwarden-k8s
     version: 0.1.6
-    sources:
-    - https://git.mcp.cool/ops/bitwarden-k8s
+    repoURL: 'https://cdwv.github.io/bitwarden-k8s/'
 
