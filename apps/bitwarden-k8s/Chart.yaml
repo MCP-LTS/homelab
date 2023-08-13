@@ -3,6 +3,6 @@ name: bitwarden-k8s
 version: 0.0.0
 dependencies:
   - name: bitwarden-k8s
-    version: master
+    version: head
     repoURL: https://git.mcp.cool/ops/bitwarden-k8s
     path: chart/bitwarden-k8s
