@@ -4,5 +4,5 @@ version: 0.0.0
 dependencies:
   - name: bitwarden-k8s
     version: 0.1.5
-    repository: https://cdwv.github.io/bitwarden-k8s/bitwarden
-    chart: bitwarden-k8s
+    repository: https://cdwv.github.io/bitwarden-k8s/
+    chart: bitwarden/
