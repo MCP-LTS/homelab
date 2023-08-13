@@ -4,4 +4,4 @@ version: 0.0.0
 dependencies:
   - name: bitwarden
     version: HEAD
-    repository: https://github.com/Skeen/helm-bitwarden_rs/tree/master/charts/bitwarden
+    repository: https://github.com/Skeen/helm-bitwarden_rs
