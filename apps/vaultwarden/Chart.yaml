@@ -1,14 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
-source:
-  repoURL: 'https://github.com/guerzon/vaultwarden'
-  path: charts/vaultwarden
-  targetRevision: HEAD
-destination:
-  server: 'https://kubernetes.default.svc'
-  namespace: v
-syncPolicy:
-  automated: {}
-  syncOptions:
-    - CreateNamespace=true
+spec:
+  source:
+    repoURL: 'https://github.com/guerzon/vaultwarden'
+    path: charts/vaultwarden
+    targetRevision: HEAD
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: v
+  syncPolicy:
+    automated: {}
+    syncOptions:
+      - CreateNamespace=true
 
