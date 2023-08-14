@@ -3,7 +3,7 @@ name: vaultwarden
 version: 0.0.0
 dependencies:
   - name: vaultwarden
-    version: HEAD
-    repoURL: 'https://git.mcp.cool/ops/vaultwarden'
+    targetRevision: HEAD
+    repoURL: 'https://github.com/guerzon/vaultwarden'
     
 
