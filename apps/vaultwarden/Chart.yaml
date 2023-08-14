@@ -4,7 +4,6 @@ version: 0.0.0
 dependencies:
   - name: vaultwarden
     version: 0.14.0
-    repository: 'https://github.com/guerzon/vaultwarden'
-    path: charts/vaultwarden
-    targetRevision: HEAD
+    sources:
+    - https://github.com/guerzon/vaultwarden
 
