@@ -1,18 +1,2 @@
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: vaultwarden
-spec:
-  project: default
-  source:
-    repoURL: 'https://github.com/guerzon/vaultwarden.git'
-    path: charts/vaultwarden
-    targetRevision: HEAD
-  destination:
-    server: 'https://kubernetes.default.svc'
-    namespace: vaultwarden
-  syncPolicy:
-    automated: {}
-    syncOptions:
-      - CreateNamespace=true
+
 
