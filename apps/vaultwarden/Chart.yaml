@@ -1,5 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
+metadata:
+  name: vaultwarden
 spec:
   source:
     repoURL: 'https://github.com/guerzon/vaultwarden'
