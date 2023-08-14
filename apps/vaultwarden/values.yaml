@@ -1,11 +1,18 @@
-bitwarden-k8s:
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/argoproj/argocd-example-apps
+    targetRevision: HEAD
+
+vaultwarden:
   ingress:
     main:
       enabled: true
       ingressClassName: nginx
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
-        hajimari.io/appName: bitwarden-k8s
+        hajimari.io/appName: vaultwarden
         hajimari.io/icon: google-drive
       hosts:
         - host: &host vaultwarden.mcp.cool
