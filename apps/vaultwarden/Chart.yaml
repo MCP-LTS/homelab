@@ -1,9 +1,14 @@
-apiVersion: v2
-name: vaultwarden
-version: 0.0.0
-dependencies:
-  - name: vaultwarden
-    version: 0.14.0
-    sources:
-    - https://github.com/guerzon/vaultwarden
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+source:
+  repoURL: 'https://github.com/guerzon/vaultwarden'
+  path: charts/vaultwarden
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: v
+syncPolicy:
+  automated: {}
+  syncOptions:
+    - CreateNamespace=true
 
