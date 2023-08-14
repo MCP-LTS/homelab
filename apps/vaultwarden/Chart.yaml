@@ -3,8 +3,9 @@ kind: Application
 metadata:
   name: vaultwarden
 spec:
+  project: default
   source:
-    repoURL: 'https://github.com/guerzon/vaultwarden'
+    repoURL: 'https://github.com/guerzon/vaultwarden.git'
     path: charts/vaultwarden
     targetRevision: HEAD
   destination:
