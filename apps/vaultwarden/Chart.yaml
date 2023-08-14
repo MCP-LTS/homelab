@@ -3,7 +3,7 @@ name: vaultwarden
 version: 0.0.0
 dependencies:
   - name: vaultwarden
-    targetRevision: HEAD
+    version: 0.1.6
     repoURL: 'https://github.com/guerzon/vaultwarden'
     
 
