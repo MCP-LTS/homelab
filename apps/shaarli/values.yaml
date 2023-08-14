@@ -1,25 +1,18 @@
-spec:
-  destination:
-    server: https://kubernetes.default.svc
-  source:
-    repoURL: https://github.com/argoproj/argocd-example-apps
-    targetRevision: HEAD
-
-vaultwarden:
+shaarli:
   ingress:
     main:
       enabled: true
       ingressClassName: nginx
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
-        hajimari.io/appName: vaultwarden
+        hajimari.io/appName: shaarli
         hajimari.io/icon: google-drive
       hosts:
-        - host: &host vaultwarden.mcp.cool
+        - host: &host shaarli.mcp.cool
           paths:
             - path: /
               pathType: Prefix
       tls:
-        - secretName: vaultwarden-tls-certificate
+        - secretName: shaarli-tls-certificate
           hosts:
             - *host

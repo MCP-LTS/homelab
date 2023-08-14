@@ -1,0 +1,8 @@
+apiVersion: v2
+name: shaarli
+version: 0.0.0
+dependencies:
+  - name: shaarli
+    version: 2.0.10
+    repository: https://charts.truecharts.org/
+    path: truecharts/shaarli
