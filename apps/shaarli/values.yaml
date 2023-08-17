@@ -17,7 +17,22 @@ shaarli:
           hosts:
             - *host
   persistence:
-    pvc-vol:
+    data:
+      enabled: true
+      type: pvc
+      namespace: shaarli
+      labels:
+        label1: value1
+      annotations:
+        annotation1: value1
+#      accessModes: ReadWriteOnce
+#      volumeName: volume-name-backing-the-pvc
+#      existingClaim: existing-claim-name
+      retain: true
+      size: 5Gi
+      targetSelectAll: true
+  persistence:
+    cache:
       enabled: true
       type: pvc
       namespace: shaarli
