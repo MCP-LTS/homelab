@@ -25,6 +25,8 @@ shaarli:
         label1: value1
       annotations:
         annotation1: value1
+        pv.beta.kubernetes.io/gid: "101"
+        volume.beta.kubernetes.io/mount-options: "uid=100,gid=101"
 #      accessModes: ReadWriteOnce
 #      volumeName: volume-name-backing-the-pvc
 #      existingClaim: existing-claim-name
@@ -36,9 +38,11 @@ shaarli:
       type: pvc
       namespace: shaarli
       labels:
-        label1: value1
+        label1: value2
       annotations:
-        annotation1: value1
+        annotation1: value2
+        pv.beta.kubernetes.io/gid: "101"
+        volume.beta.kubernetes.io/mount-options: "uid=100,gid=101"
 #      accessModes: ReadWriteOnce
 #      volumeName: volume-name-backing-the-pvc
 #      existingClaim: existing-claim-name
