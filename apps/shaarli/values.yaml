@@ -31,7 +31,6 @@ shaarli:
       retain: true
       size: 5Gi
       targetSelectAll: true
-  persistence:
     cache:
       enabled: true
       type: pvc
