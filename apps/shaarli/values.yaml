@@ -16,6 +16,13 @@ shaarli:
         - secretName: shaarli-tls-certificate
           hosts:
             - *host
+
+  pod:
+    spec:
+      securityContext:
+        fsGroup: 101
+
+
   persistence:
     data:
       enabled: true
