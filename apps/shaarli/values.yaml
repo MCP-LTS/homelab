@@ -27,7 +27,7 @@ shaarli:
         annotation1: value1
 #      accessModes: ReadWriteOnce
 #      volumeName: volume-name-backing-the-pvc
-      existingClaim: existing-claim-name
+#      existingClaim: existing-claim-name
       retain: true
       size: 5Gi
       targetSelectAll: true
