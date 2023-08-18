@@ -1,0 +1,8 @@
+apiVersion: v2
+name: vaultwarden
+version: 0.0.0
+dependencies:
+  - name: vaultwarden
+    version: 21.0.3
+    repository: https://charts.truecharts.org/
+    path: truecharts/vaultwarden
