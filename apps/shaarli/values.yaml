@@ -19,9 +19,9 @@ shaarli:
 
 #https://truecharts.org/manual/helm/common/persistence/pvc/
 #/var/www # chown 100:101 shaarli/data
-#/var/www # chown 100:101 shaarli/cache
-#/var/www # chmod 755 shaarli/data
-#/var/www # chmod 755 shaarli/cache
+#chown 100:101 shaarli/cache
+#chmod 755 shaarli/data
+#chmod 755 shaarli/cache
   persistence:
     data:
       enabled: true

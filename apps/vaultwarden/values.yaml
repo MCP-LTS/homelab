@@ -27,37 +27,28 @@ vaultwarden:
         label1: value1
       annotations:
         annotation1: value1
-#      accessModes: ReadWriteOnce
-#      volumeName: volume-name-backing-the-pvc
-#      existingClaim: existing-claim-name
       retain: true
       size: 10Gi
       targetSelectAll: true
-    cnpg-main-1:
-      enabled: true
-      type: pvc
-      namespace: vaultwarden
-      labels:
-        label1: value1
-      annotations:
-        annotation1: value1
-#      accessModes: ReadWriteOnce
-#      volumeName: volume-name-backing-the-pvc
-#      existingClaim: existing-claim-name
-      retain: true
-      size: 10Gi
-      targetSelectAll: true
-    cnpg-main-1-wal:
-      enabled: true
-      type: pvc
-      namespace: vaultwarden
-      labels:
-        label1: value1
-      annotations:
-        annotation1: value1
-#      accessModes: ReadWriteOnce
-#      volumeName: volume-name-backing-the-pvc
-#      existingClaim: existing-claim-name
-      retain: true
-      size: 10Gi
-      targetSelectAll: true
+    # cnpg-main-1:
+    #   enabled: true
+    #   type: pvc
+    #   namespace: vaultwarden
+    #   labels:
+    #     label1: value1
+    #   annotations:
+    #     annotation1: value1
+    #   retain: true
+    #   size: 10Gi
+    #   targetSelectAll: true
+    # cnpg-main-1-wal:
+    #   enabled: true
+    #   type: pvc
+    #   namespace: vaultwarden
+    #   labels:
+    #     label1: value1
+    #   annotations:
+    #     annotation1: value1
+    #   retain: true
+    #   size: 10Gi
+    #   targetSelectAll: true
