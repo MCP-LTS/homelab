@@ -1,5 +1,6 @@
 nextcloud:
-  host: nextcloud.mcp.cool
+  nextcloud:
+    host: nextcloud.mcp.cool
   ingress:
     enabled: true
     ingressClassName: nginx
