@@ -31,7 +31,7 @@ vaultwarden:
       size: 10Gi
       targetSelectAll: true
     cnpg-main-1:
-      enabled: true
+#      enabled: true
       type: pvc
       namespace: vaultwarden
       labels:
@@ -42,7 +42,7 @@ vaultwarden:
       size: 10Gi
       targetSelectAll: true
     cnpg-main-1-wal:
-      enabled: true
+#      enabled: true
       type: pvc
       namespace: vaultwarden
       labels:
