@@ -30,6 +30,6 @@ cloudnative-pg:
 #      accessModes: ReadWriteOnce
 #      volumeName: volume-name-backing-the-pvc
 #      existingClaim: existing-claim-name
-      retain: true
-      size: 5Gi
+#      retain: true
+      size: 10Gi
       targetSelectAll: true
