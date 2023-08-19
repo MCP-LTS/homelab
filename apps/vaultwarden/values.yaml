@@ -38,7 +38,7 @@ vaultwarden:
         label1: value1
       annotations:
         annotation1: value1
-      retain: true
+#      retain: true
       size: 10Gi
       targetSelectAll: true
     cnpg-main-1-wal:
@@ -49,6 +49,6 @@ vaultwarden:
         label1: value1
       annotations:
         annotation1: value1
-      retain: true
+#      retain: true
       size: 10Gi
       targetSelectAll: true
