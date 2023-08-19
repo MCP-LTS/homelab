@@ -18,8 +18,8 @@ nextcloud:
             - *host
 
 #https://truecharts.org/manual/helm/common/persistence/pvc/
-  # persistence:
-  #   enabled: true
+  persistence:
+    enabled: true
     # html:
     #   enabled: true
     #   type: pvc
