@@ -1,21 +1,21 @@
 cloudnative-pg:
-  ingress:
-    main:
-      enabled: true
-      ingressClassName: nginx
-      annotations:
-        cert-manager.io/cluster-issuer: letsencrypt-prod
-        hajimari.io/appName: cloudnative-pg
-        hajimari.io/icon: google-drive
-      hosts:
-        - host: &host cloudnative-pg.mcp.cool
-          paths:
-            - path: /
-              pathType: Prefix
-      tls:
-        - secretName: cloudnative-pg-tls-certificate
-          hosts:
-            - *host
+  # ingress:
+  #   main:
+  #     enabled: true
+  #     ingressClassName: nginx
+  #     annotations:
+  #       cert-manager.io/cluster-issuer: letsencrypt-prod
+  #       hajimari.io/appName: cloudnative-pg
+  #       hajimari.io/icon: google-drive
+  #     hosts:
+  #       - host: &host cloudnative-pg.mcp.cool
+  #         paths:
+  #           - path: /
+  #             pathType: Prefix
+  #     tls:
+  #       - secretName: cloudnative-pg-tls-certificate
+  #         hosts:
+  #           - *host
 
 #https://truecharts.org/manual/helm/common/persistence/pvc/
   persistence:
