@@ -19,21 +19,22 @@ nextcloud:
 
 #https://truecharts.org/manual/helm/common/persistence/pvc/
   persistence:
-    html:
-      enabled: true
-      type: pvc
-      namespace: nextcloud
-      size: 5Gi
-      targetSelectAll: true
-    config:
-      enabled: true
-      type: pvc
-      namespace: nextcloud
-      size: 5Gi
-      targetSelectAll: true
-    data:
-      enabled: true
-      type: pvc
-      namespace: nextcloud
-      size: 5Gi
-      targetSelectAll: true
+    enabled: true
+    # html:
+    #   enabled: true
+    #   type: pvc
+    #   namespace: nextcloud
+    #   size: 5Gi
+    #   targetSelectAll: true
+    # config:
+    #   enabled: true
+    #   type: pvc
+    #   namespace: nextcloud
+    #   size: 5Gi
+    #   targetSelectAll: true
+    # data:
+    #   enabled: true
+    #   type: pvc
+    #   namespace: nextcloud
+    #   size: 5Gi
+    #   targetSelectAll: true
