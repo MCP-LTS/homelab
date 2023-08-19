@@ -1,4 +1,5 @@
 nextcloud:
+  host: nextcloud.mcp.cool
   ingress:
     enabled: true
     main:
