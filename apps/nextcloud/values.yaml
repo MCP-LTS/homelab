@@ -1,4 +1,6 @@
 nextcloud:
+  metrics:
+    https: true
   nextcloud:
     host: nextcloud.mcp.cool
   ingress:
