@@ -1,5 +1,6 @@
 nextcloud:
   ingress:
+    enabled: true
     main:
       enabled: true
       ingressClassName: nginx
