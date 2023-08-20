@@ -1,8 +1,0 @@
-apiVersion: v2
-name: pgadmin
-version: 0.0.0
-dependencies:
-  - name: pgadmin
-    version: 10.0.29
-    repository: https://charts.truecharts.org/
-    path: truecharts/pgadmin

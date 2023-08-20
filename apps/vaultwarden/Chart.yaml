@@ -3,6 +3,6 @@ name: vaultwarden
 version: 0.0.0
 dependencies:
   - name: vaultwarden
-    version: 21.0.3
-    repository: https://charts.truecharts.org/
-    path: truecharts/vaultwarden
+    version: 0.10.1
+    repository: https://charts.gabe565.com
+    path: gabe565/vaultwarden

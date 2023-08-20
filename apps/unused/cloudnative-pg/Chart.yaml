@@ -1,0 +1,8 @@
+apiVersion: v2
+name: cloudnative-pg
+version: 0.0.0
+dependencies:
+  - name: cloudnative-pg
+    version: 2.0.2
+    repository: https://charts.truecharts.org/
+    path: truecharts/cloudnative-pg
