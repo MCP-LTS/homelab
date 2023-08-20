@@ -2,7 +2,7 @@ ingress-nginx:
   controller:
     admissionWebhooks:
       timeoutSeconds: 45
-      worker-shutdown-timeout: 900s
+#      worker-shutdown-timeout: 900s
     metrics:
       enabled: true
       serviceMonitor:
