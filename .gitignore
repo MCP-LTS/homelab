@@ -7,3 +7,5 @@ book/
 *.tgz
 *kubeconfig.yaml
 Chart.lock
+metal/roles/pxe_server/files/data/os
+metal/roles/pxe_server/files/data/iso
